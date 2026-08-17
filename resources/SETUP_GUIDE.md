@@ -6,6 +6,8 @@ This gets you from "cloned this repo" to "first story captured and weekly Linked
 
 - [ ] A GitHub account (free) — [github.com/signup](https://github.com/signup) if you don't have one
 - [ ] A Claude Pro, Max, Team, or Enterprise plan — **the free Claude tier does not include Claude Code at all**, and the weekly automated routines specifically require a paid plan. If you're testing this on free, you can still capture stories and draft posts manually with Claude Code's normal chat, you just won't get the unattended weekly automation.
+  - **Which tier?** Pro ($20/mo) should comfortably cover this on its own — each routine is a light weekly task (read a few files, maybe one web search, draft ~1,000 characters, commit and push), a small fraction of a single Pro session's capacity. Anthropic doesn't publish exact token/request limits, so this isn't a hard guarantee, but two small weekly drafts is not a heavy workload.
+  - **The real caveat**: usage is shared across everything on that account — Claude Code, claude.ai chat, and routines all draw from the same pool. If you're also using the same account for substantial day-to-day Claude Code work (long coding sessions, lots of tool calls), that shared usage could get tight faster than the routines alone would. Start with Pro, check **Settings → Usage** inside Claude Code after the first week or two of routine runs to see real consumption, and only upgrade to Max if you're actually hitting the cap.
 - [ ] A Publora account (free tier: 15 LinkedIn posts/month) — [app.publora.com/signup](https://app.publora.com/signup)
 - [ ] A LinkedIn account you're comfortable posting from
 
