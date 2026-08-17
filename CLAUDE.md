@@ -7,7 +7,6 @@
 **Title**: {{PLAYBOOK_TITLE}}
 <!-- e.g. "Hidden Realities in [Your Field]: A Practitioner's Playbook" -- delete this comment once filled in -->
 
-
 **Purpose**: Document real, specific work experiences to build a practical, sellable guide for {{TARGET_AUDIENCE}}.
 
 **Author**: {{YOUR_NAME}}, {{YOUR_CREDENTIAL}}

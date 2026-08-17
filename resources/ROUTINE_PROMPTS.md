@@ -78,8 +78,10 @@ IMPORTANT: This routine only drafts and commits. It does NOT call any external A
 or publish. Scheduling happens from a local Claude Code session afterward.
 
 BRAND CONTEXT:
-{{BRAND_CONTEXT}} -- describe your pillars, what you've built/shipped, your voice (direct vs
-warm, contrarian vs consensus-building, technical vs plain-language, etc).
+{{BRAND_CONTEXT}}
+<!-- Fill in above: your content pillars, what you've actually built/shipped (real products,
+     not aspirations), and your voice -- direct vs warm, contrarian vs consensus-building,
+     technical vs plain-language. Delete this comment once filled in. -->
 
 DRAFTING TASK:
 1. Search the web for news/discussion from the last 7 days relevant to {{FIELD}}.
