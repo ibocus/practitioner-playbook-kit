@@ -1,0 +1,46 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary files
+*.tmp
+*.bak
+~*
+
+# Private notes (for you only, don't commit)
+_private/
+notes.txt
+brainstorm.md
+
+# Internal strategy/metrics docs (local Claude Code context only, not public)
+# Uncomment and adjust once you've filled in CLAUDE.md with real strategy details
+# you don't want public in this repo:
+# /CLAUDE.md
+# resources/MASTER_INDEX.md
+
+# Compiled outputs (if generating from source)
+*.pdf
+*.epub
+dist/
+build/
+
+# Backups
+*.backup
+*.old
+
+# Large files (keep these locally, not in repo)
+*.zip
+*.tar.gz
+
+# Python cache (if using Python scripts)
+__pycache__/
+*.pyc
+
+# Node modules (if using Node)
+node_modules/
