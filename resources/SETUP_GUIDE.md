@@ -28,13 +28,16 @@ git push -u origin main
 
 ## Step 2: Fill in the placeholders (10 min)
 
-Open `CLAUDE.md` and replace every `{{PLACEHOLDER}}` with your real details: your name, your field, your target audience, your revenue goal (or delete that line if you're not selling anything). This file is what Claude Code reads automatically every time you work in this folder.
+Two files need every `{{PLACEHOLDER}}` replaced with your real details — don't skip the second one, it's easy to miss and it's what actually gets pasted into your routine later:
 
-Also update this file's own placeholders once you've picked names for things (your two routines, your GitHub username).
+1. **`CLAUDE.md`** — your name, your field, your target audience, your revenue goal (or delete that line if you're not selling anything). This file is what Claude Code reads automatically every time you work in this folder.
+2. **`resources/ROUTINE_PROMPTS.md`** — same details plus your credential/positioning and a signature hashtag. In Step 5 you'll copy these prompts directly into your routine setup, so any `{{PLACEHOLDER}}` left unfilled here gets pasted literally into your live routine.
+
+Also update this file's own placeholders (`{{TEMPLATE_OWNER}}`, `{{PLAYBOOK_SLUG}}`, `{{YOUR_GITHUB_USERNAME}}`) once you've picked names for things.
 
 Commit and push:
 ```bash
-git add CLAUDE.md resources/SETUP_GUIDE.md
+git add CLAUDE.md resources/ROUTINE_PROMPTS.md resources/SETUP_GUIDE.md
 git commit -m "Fill in project details"
 git push
 ```

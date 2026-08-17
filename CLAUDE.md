@@ -4,11 +4,13 @@
 
 ## PROJECT OVERVIEW
 
-**Title**: {{PLAYBOOK_TITLE}} (e.g. "Hidden Realities in [Your Field]: A Practitioner's Playbook")
+**Title**: {{PLAYBOOK_TITLE}}
+<!-- e.g. "Hidden Realities in [Your Field]: A Practitioner's Playbook" -- delete this comment once filled in -->
+
 
 **Purpose**: Document real, specific work experiences to build a practical, sellable guide for {{TARGET_AUDIENCE}}.
 
-**Author**: {{YOUR_NAME}}, {{YOUR_ROLE_OR_CREDENTIAL}}
+**Author**: {{YOUR_NAME}}, {{YOUR_CREDENTIAL}}
 
 **Timeline**: {{CAPTURE_START_MONTH}} (capture) → {{LAUNCH_MONTH}} (launch)
 
@@ -27,7 +29,7 @@
 | **Story Capture** | Markdown (git-tracked) | Lightweight, version-controlled story files |
 | **Source Control** | Git + GitHub | Cross-device sync, public portfolio, audience building |
 | **Audience Building** | LinkedIn | Weekly teaser posts from real stories |
-| **Sales** | {{SALES_CHANNEL}} (e.g. direct email + Gumroad) | Distribution once launched |
+| **Sales** | {{SALES_CHANNEL}} | Distribution once launched — e.g. direct email + Gumroad |
 
 ### Repo Structure
 
